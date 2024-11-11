@@ -27,7 +27,7 @@ Welcome to **SavorSpot**! This is a restaurant website where users can explore, 
 3. npm run dev
 
 
-##Folder Structure
+## Folder Structure
 
 - /src/components: Contains all reusable UI components.
 - /src/pages: Page components for different views (e.g., Menu, Cart).
