@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Hero { 
+    background-image: url('/extras/pngwing.com.png'), url('/extras/Designer.png');
+    background-repeat: no-repeat;
+    background-position-x: 90%,93%;
+    background-position-y: 70%,60%;
+    background-size: 35rem;
+}
+
+@media (max-width: 1024px) {
+    .Hero {
+        background-image: none;
+    }
+}
+
+body {
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    background: black;
+    width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+option {
+    background-color: rgba(34, 31, 31, 0.744);    
+}
+
+select {
+    appearance: none;
+    background-image: url("https://img.icons8.com/ios-glyphs/30/FFFFFF/expand-arrow--v1.png");
+  background-repeat: no-repeat;
+  background-position: right 0.7rem top 50%;
+  background-size: 0.65rem auto;
+}
+
+.MuiButtonBase-root.MuiAccordionSummary-root.MuiAccordionSummary-gutters {
+    background:#09090B;
+    color: white;
+    border: none !important;
+}
+
+.MuiButtonBase-root.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+    color: #09090B !important;        
+}
