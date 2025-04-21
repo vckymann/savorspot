@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { setMenu } from '@/store/slices/menuSlice';
-import { databaseService } from '@/supabase/services/database';
 
 const useMenuItems = () => {
   const dispatch = useDispatch();
